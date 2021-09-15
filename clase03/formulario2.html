@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <H1>Segundo Formulario</H1>
+    <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Nombre y Apellido">
+        <br /><br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" placeholder="**********">
+        <br><br>
+        <label for="repetirContraseña">Repetir Contraseña</label>
+        <input type="password" id="repetirContraseña" name="contraseña" placeholder="*********">
+        <br><br>
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+        <br><br>
+
+        <label for="edad">¿Eres Mayor de 18?</label>
+        <select id="edad">
+            <option>Elige</option>
+            <option value="Ferrari">SI</option>
+            <option value="Fitito">NO</option>
+
+        </select>
+        <br><br>
+
+        <label for="nacionalidad">Nacionalidad</label>
+        <select id="nacionalidad">
+            <option value=""></option>
+            <option value="">Argentina</option>
+            <option value="">Brasil</option>
+            <option value="">Bolivia</option>
+            <option value="">Peru</option>
+            <option value="">Paraguay</option>
+        </select>
+
+        <br><br>
+        <label>¿Desea Recibir Novedades?</label>
+
+        <input type="radio" name="recibir" id="siRecibir">
+        <label for="siRecibir">SI</label>
+        <input type="radio" name="recibir" id="noRecibir">
+        <label for="noRecibir">No</label>
+        <br><br>
+        <input type="checkbox" name="enviar" id="envia">
+        <label for="envia">Si</label>
+        <input type="checkbox" name="enviar" id="noenviar">
+        <label for="noenviar">No</label>
+
+        <br><br>
+        <div><button type="submit">Enviar</button></div>
+        <input type="submit" value="Enviar Segundo Formulario">
+        
+    </form>
+    <form action="" class="Formulario">
+        <h4>Contacto</h4>
+        <div>
+            <input type="text" name="" id="nom" placeholder="Ingrese Nombre">
+        </div>
+        <div>
+            <input type="text" name="" id="apellido" placeholder="Ingrese Apellido">
+        </div>
+        <div>
+            <input type="email" name="" id="correo" placeholder="Ingrese Email">
+        </div>
+        <div>
+            <input type="number" name="" id="tel" placeholder="Ingrese Telefono">
+        </div>
+        <div class="Mensaje">
+            <input type="textarea" placeholder="Deja tu mensaje">
+        </div>
+        <div class="enviar">
+            <button type="submit">enviar</button>
+        </div>
+        <button type="submit">enviar</button>
+    </form>
+
+    
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+h1{
+    color: seagreen;
+}
+
+.tituloVerde {
+    color: green;
+    
+}
+
+label{
+    
+    color: blue;
+}
+input{
+    color: red;
+}
+.Formulario{
+    background-color:#011922;
+    width: 27%;
+    height: 400px;
+    margin-top: 50px;
+    padding: 30px;
+    color: #EAF2EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: #011922 solid 2px;
+    border-radius: 4px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+}
+.Formulario div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: #226F54;
+    color: #EAF2EF;
+}
+input::placeholder{
+    color:#011922;
+}
+.mensaje input{
+    width: 100%;
+    height: 100px;
+}
+.enviar input{
+    width:100%;
+    height: 50px;
+    background-color: #226F54;
+    color: #EAF2EF;
+    border: #226F54 4px solid;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: rgb(15, 16, 32);
+    color:#EAF2EF;
+    margin: 0;
+    padding:0;
+}
