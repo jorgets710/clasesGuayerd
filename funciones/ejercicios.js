@@ -4,15 +4,21 @@
 };
  */
 // 1 _ Crear una función que reciba tu edad y retorne tu edad en años perro. (Multiplicado por 7).
-let a =parseInt( prompt("ingrese su edad"));
-let b= 7;
 
-const añosPerro = (a,b) => 
+const añosPerro = () => 
 {
-   alert(a*b)
+    let edad =parseInt( prompt("ingrese su edad"));
+    let edadPerros= 7;
+     alert(edad*edadPerros)
 };
+//2_Crear una función que reciba un nombre y devuelva un saludo.
+const saludo = (a) =>
+{
+    alert(a+" hola")
+}
 
-añosPerro(a,b);
+
+
 
 //ejercio 6
 /*function kiosko (){
@@ -49,11 +55,11 @@ añosPerro(a,b);
         alert("la bebida ingresada es incorrecta")
     }
 }*/ 
-function validarEdad (edad) {
+/*function validarEdad (edad) {
    
    if (edad > 18) {
       return ("es mayor");
    }
 }
 let hola =validarEdad(19)
-alert(hola)
+alert(hola)*/
