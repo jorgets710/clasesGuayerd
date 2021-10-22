@@ -1,0 +1,39 @@
+.contenedor1 {
+    display:flex;
+    flex-wrap:nowrap;
+    text-decoration: none;
+}
+
+.h2BannerInicio {
+    align-content: center;
+    margin-top: 7%;
+}
+#logo1{
+    margin: all;
+    width:20%;
+    height: 130px;
+    background: url(./500_F_321218561_XwUJQAtZNhkVjLYFeJhJ03Ie7ISSTXLr.jpg)no-repeat right;
+    float: left;
+    margin-right: 50px;
+}
+#logo2{
+    margin: all;
+    width:20%;
+    height: 130px;
+    background: url(./500_F_125620662_UpW24BZSFDVHL0giXMEJROSFrwVmLxBf.jpg)no-repeat right;
+    float: left;
+    margin-right: 50px;
+}
+#logo3{
+    margin: all;
+    width:20%;
+    height: 130px;
+    background: url(./500_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg)no-repeat right;
+    float: left;
+    margin-right: 50px;
+}
+.h2Promocion{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 60px;
+}
