@@ -285,8 +285,22 @@ function factorialMasivo() {
     alert (texto);
 }
 //6_Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci.
-function name(params) {
+
     
+
+function fibonacci (params) {
+    let iteraciones = parseInt(prompt("ingrese un numero para ver la secuencia Fibonacci"))
+    let total=0;
+    let num1 = 0;
+    let num2=1
+    
+    for (let index = 0; index < iteraciones ; index++) {
+        total= num1+num2;
+        num1 = num2;
+        num2 = total;       
+        alert (total)
+    }
+
 }
 
 
